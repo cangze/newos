@@ -2,353 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d99b62df-9bb0-48c9-9800-1f263092e0e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/ag/AutoGrader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/ag/BoatGrader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/ag/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/bin/nachos" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ArrayFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/AssertionFailureError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Coff.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/CoffSection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Config.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorBank$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorBank$ElevatorManager$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorBank$ElevatorManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorBank$ElevatorState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorBank$RiderState$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorBank$RiderState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorBank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorControllerInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorControls.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorEvent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorGui$ElevatorShaft.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorGui$Floor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorGui.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorTest$ElevatorController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorTest$ElevatorController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorTest$Rider$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorTest$Rider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/FileSystem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Interrupt$InterruptPrivilege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Interrupt$PendingInterrupt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Interrupt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Kernel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Lib.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Machine$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Machine$MachinePrivilege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Machine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/MalformedPacketException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/NetworkLink$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/NetworkLink$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/NetworkLink$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/NetworkLink$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/NetworkLink.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/OpenFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/OpenFileWithPosition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Packet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Processor$Instruction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Processor$Mips.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Processor$MipsException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Processor$ProcessorPrivilege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Processor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/RiderControls.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/RiderEvent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/RiderInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/SerialConsole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/StandardConsole$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/StandardConsole$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/StandardConsole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Stats.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/StubFileSystem$FileRemover.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/StubFileSystem$StubOpenFile$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/StubFileSystem$StubOpenFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/StubFileSystem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/TCB$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/TCB$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/TCB$TCBPrivilege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/TCB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Timer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Timer$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Timer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/TranslationEntry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/MailMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/NetKernel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/NetKernel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/NetProcess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/PostOffice$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/PostOffice$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/PostOffice$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/PostOffice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/proj1/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/proj1/nachos.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/proj2/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/proj3/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/proj3/nachos.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/proj4/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/proj4/nachos.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/NachosSecurityManager$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/NachosSecurityManager$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/NachosSecurityManager$PrivilegeProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/NachosSecurityManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/Privilege$InterruptPrivilege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/Privilege$MachinePrivilege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/Privilege$ProcessorPrivilege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/Privilege$TCBPrivilege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/Privilege.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/assert.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/assert.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/atoi.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/atoi.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/cat.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/cat.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/cat.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/cp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/cp.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/cp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/echo.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/echo.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/echo.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/halt.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/halt.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/halt.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/libnachos.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/matmult.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/matmult.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/matmult.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/memcpy.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/memcpy.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/memset.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/memset.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/mv.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/mv.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/mv.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/printf.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/printf.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/readline.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/readline.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/rm.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/rm.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/rm.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/script" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/script_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/sh.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/sh.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/sh.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/sort.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/sort.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/sort.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/start.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/start.s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/stdarg.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/stdio.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/stdio.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/stdio.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/stdlib.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/stdlib.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strcat.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strcat.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strcmp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strcmp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strcpy.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strcpy.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strlen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strlen.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strncmp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strncmp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/swapfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/syscall.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/va-mips.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/Proj3SwapFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/Proj3SwapTestFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/Swap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/Test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a0.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a0.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a0.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a1.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a1.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a2.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a2.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a4.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a4.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a4.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/aa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/assert.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/assert.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/atoi.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/atoi.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/cat.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/cat.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/cat.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/chat.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/chat.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/chat.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/chatserver.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/chatserver.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/chatserver.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/cp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/cp.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/cp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/create.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/echo.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/echo.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/echo.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/filesyscall.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/filesyscall.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/filesyscall.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/halt.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/halt.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/halt.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/libnachos.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/matmult.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/matmult.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/matmult.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/memcpy.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/memcpy.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/memset.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/memset.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/mv.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/mv.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/mv.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/printf.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/printf.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/readline.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/readline.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/rm.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/rm.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/rm.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/script" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/script_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/sh.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/sh.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/sh.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/snack.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/sort.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/sort.coff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/sort.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/start.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/start.s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/stdarg.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/stdio.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/stdio.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/stdio.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/stdlib.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/stdlib.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strcat.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strcat.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strcmp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strcmp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strcpy.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strcpy.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strlen.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strlen.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strncmp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strncmp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/swapfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/syscall.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/testjoin.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/va-mips.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Alarm$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Alarm$ThreadInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Alarm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Boat$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Boat$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Boat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Communicator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Condition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Condition2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/ElevatorController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$12.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$13.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$14.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$15.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$16.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$17.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$18.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$19.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$PingTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$Speaker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$joinTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Lock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/LotteryScheduler$LotteryQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/LotteryScheduler$ThreadState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/LotteryScheduler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/PriorityScheduler$PriorityQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/PriorityScheduler$ThreadState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/PriorityScheduler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Rider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/RoundRobinScheduler$FifoQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/RoundRobinScheduler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Scheduler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Semaphore$PingTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Semaphore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/SynchList$PingTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/SynchList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/ThreadQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/ThreadedKernel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/SynchConsole$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/SynchConsole$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/SynchConsole$File.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/SynchConsole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UThread$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserKernel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserKernel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$AccessType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$FileRef.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$MemoryAccess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$NachosFatalException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$NachosFileSystemException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$NachosIllegalArgumentException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$NachosInternalException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$NachosOutOfFileDescriptorsException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$NachosVirtualMemoryException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMKernel$MemoryEntry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMKernel$Swap$SwapEntry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMKernel$Swap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMKernel$TableKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMKernel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMProcess$ArgConstructor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMProcess$CoffConstructor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMProcess$Constructor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMProcess$StackConstructor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMProcess$VMMemoryAccess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMProcess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -522,8 +176,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="680" />
-    <option name="y" value="10" />
+    <option name="x" value="321" />
+    <option name="y" value="43" />
     <option name="width" value="1500" />
     <option name="height" value="919" />
   </component>
@@ -585,7 +239,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -654,12 +308,20 @@
       <workItem from="1608470314675" duration="1407000" />
       <workItem from="1608602946298" duration="46518000" />
       <workItem from="1608815533657" duration="1490000" />
-      <workItem from="1608817882503" duration="1070000" />
+      <workItem from="1608817882503" duration="1784000" />
     </task>
+    <task id="LOCAL-00001" summary="山东大学操作系统课程设计(proj1-4 教师:高晓程)">
+      <created>1608818986803</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608818986803</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99230000" />
+    <option name="totallyTimeSpent" value="99944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -671,17 +333,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="544" y="8" width="1200" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="257" y="35" width="1200" height="735" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.5141431" visible="true" weight="0.2022767" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.5141431" visible="true" weight="0.2022767" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="1" visible="true" weight="0.39137647" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.3167785" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
@@ -741,6 +402,32 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="山东大学操作系统课程设计(proj1-4 教师:高晓程)" />
