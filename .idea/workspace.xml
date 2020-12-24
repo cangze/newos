@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d99b62df-9bb0-48c9-9800-1f263092e0e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/ag/AutoGrader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/ag/BoatGrader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/ag/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/bin/nachos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ArrayFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/AssertionFailureError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Coff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/CoffSection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorBank$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorBank$ElevatorManager$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorBank$ElevatorManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorBank$ElevatorState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorBank$RiderState$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorBank$RiderState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorBank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorControllerInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorControls.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorGui$ElevatorShaft.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorGui$Floor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorGui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorTest$ElevatorController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorTest$ElevatorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorTest$Rider$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorTest$Rider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/ElevatorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/FileSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Interrupt$InterruptPrivilege.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Interrupt$PendingInterrupt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Interrupt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Kernel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Lib.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Machine$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Machine$MachinePrivilege.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Machine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/MalformedPacketException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/NetworkLink$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/NetworkLink$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/NetworkLink$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/NetworkLink$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/NetworkLink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/OpenFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/OpenFileWithPosition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Packet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Processor$Instruction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Processor$Mips.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Processor$MipsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Processor$ProcessorPrivilege.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Processor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/RiderControls.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/RiderEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/RiderInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/SerialConsole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/StandardConsole$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/StandardConsole$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/StandardConsole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Stats.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/StubFileSystem$FileRemover.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/StubFileSystem$StubOpenFile$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/StubFileSystem$StubOpenFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/StubFileSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/TCB$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/TCB$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/TCB$TCBPrivilege.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/TCB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Timer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Timer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/Timer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/TranslationEntry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/machine/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/MailMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/NetKernel$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/NetKernel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/NetProcess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/PostOffice$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/PostOffice$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/PostOffice$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/PostOffice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/network/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/proj1/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/proj1/nachos.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/proj2/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/proj3/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/proj3/nachos.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/proj4/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/proj4/nachos.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/NachosSecurityManager$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/NachosSecurityManager$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/NachosSecurityManager$PrivilegeProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/NachosSecurityManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/Privilege$InterruptPrivilege.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/Privilege$MachinePrivilege.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/Privilege$ProcessorPrivilege.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/Privilege$TCBPrivilege.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/Privilege.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/security/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/assert.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/assert.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/atoi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/atoi.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/cat.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/cat.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/cat.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/cp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/cp.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/cp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/echo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/echo.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/echo.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/halt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/halt.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/halt.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/libnachos.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/matmult.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/matmult.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/matmult.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/memcpy.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/memcpy.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/memset.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/memset.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/mv.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/mv.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/mv.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/printf.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/printf.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/readline.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/readline.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/rm.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/rm.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/rm.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/script" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/script_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/sh.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/sh.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/sh.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/sort.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/sort.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/sort.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/start.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/start.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/stdarg.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/stdio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/stdio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/stdio.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/stdlib.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/stdlib.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strcat.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strcat.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strcmp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strcmp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strcpy.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strcpy.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strlen.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strlen.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strncmp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/strncmp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/swapfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/syscall.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test - 副本/va-mips.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/Proj3SwapFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/Proj3SwapTestFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/Swap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/Test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a0.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a0.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a0.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a1.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a1.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a2.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a4.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/a4.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/aa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/assert.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/assert.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/atoi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/atoi.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/cat.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/cat.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/cat.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/chat.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/chat.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/chat.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/chatserver.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/chatserver.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/chatserver.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/cp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/cp.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/cp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/create.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/echo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/echo.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/echo.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/filesyscall.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/filesyscall.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/filesyscall.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/halt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/halt.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/halt.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/libnachos.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/matmult.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/matmult.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/matmult.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/memcpy.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/memcpy.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/memset.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/memset.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/mv.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/mv.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/mv.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/printf.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/printf.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/readline.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/readline.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/rm.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/rm.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/rm.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/script" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/script_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/sh.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/sh.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/sh.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/snack.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/sort.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/sort.coff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/sort.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/start.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/start.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/stdarg.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/stdio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/stdio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/stdio.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/stdlib.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/stdlib.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strcat.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strcat.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strcmp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strcmp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strcpy.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strcpy.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strlen.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strlen.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strncmp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/strncmp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/swapfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/syscall.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/testjoin.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/test/va-mips.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Alarm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Alarm$ThreadInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Alarm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Boat$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Boat$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Boat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Communicator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Condition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Condition2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/ElevatorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$16.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$17.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$18.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$19.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$PingTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$Speaker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread$joinTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/KThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Lock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/LotteryScheduler$LotteryQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/LotteryScheduler$ThreadState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/LotteryScheduler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/PriorityScheduler$PriorityQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/PriorityScheduler$ThreadState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/PriorityScheduler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Rider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/RoundRobinScheduler$FifoQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/RoundRobinScheduler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Scheduler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Semaphore$PingTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/Semaphore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/SynchList$PingTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/SynchList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/ThreadQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/ThreadedKernel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/threads/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/SynchConsole$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/SynchConsole$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/SynchConsole$File.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/SynchConsole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UThread$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserKernel$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserKernel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$AccessType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$FileRef.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$MemoryAccess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$NachosFatalException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$NachosFileSystemException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$NachosIllegalArgumentException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$NachosInternalException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$NachosOutOfFileDescriptorsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess$NachosVirtualMemoryException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/UserProcess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/userprog/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMKernel$MemoryEntry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMKernel$Swap$SwapEntry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMKernel$Swap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMKernel$TableKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMKernel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMProcess$ArgConstructor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMProcess$CoffConstructor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMProcess$Constructor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMProcess$StackConstructor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMProcess$VMMemoryAccess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/VMProcess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/newos/nachos/vm/package.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nachos/userprog/UserProcess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20070">
+              <caret line="1151" column="37" selection-start-line="1151" selection-start-column="37" selection-end-line="1151" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1758#1759#0" expanded="true" />
+                <element signature="e#1835#1836#0" expanded="true" />
+                <element signature="e#2719#2720#0" expanded="true" />
+                <element signature="e#2769#2770#0" expanded="true" />
+                <element signature="e#4277#4278#0" expanded="true" />
+                <element signature="e#4337#4338#0" expanded="true" />
+                <element signature="e#6225#6226#0" expanded="true" />
+                <element signature="e#6286#6287#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nachos/threads/KThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11862">
+              <caret line="669" column="30" selection-start-line="669" selection-start-column="30" selection-end-line="669" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nachos/threads/PriorityScheduler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="67" column="25" selection-end-line="351" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/nachos/threads/Boat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nachos/machine/Processor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9414">
+              <caret line="541" column="33" selection-start-line="541" selection-start-column="33" selection-end-line="541" selection-end-column="33" />
+              <folding>
+                <element signature="e#6586#6587#0" expanded="true" />
+                <element signature="e#6612#6613#0" expanded="true" />
+                <element signature="e#7455#7456#0" expanded="true" />
+                <element signature="e#7520#7521#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nachos/machine/TranslationEntry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nachos.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nachos/vm/VMProcess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#writeVirtualMemory#2;class#VMProcess#0" />
+                <element signature="method#createMemoryAccesses#0;class#VMProcess#0" />
+                <element signature="method#VMMemoryAccess#0;class#VMMemoryAccess#0;class#VMProcess#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nachos/machine/Machine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1926">
+              <caret line="114" column="27" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>join</find>
+      <find>testD</find>
+      <find>handleExe</find>
+      <find>openfile[0</find>
+      <find>me1</find>
+      <find>没找到</find>
+      <find>will be echoed</find>
+      <find>se</find>
+      <find>coffs</find>
+      <find>random</find>
+      <find>load</find>
+      <find>run</find>
+      <find>tlbmi</find>
+      <find>s</find>
+      <find>wake</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="2c8206c1-9e33-4e31-a49e-ecfe208aef79" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/nachos/threads/Condition2.java" />
+        <option value="$PROJECT_DIR$/src/nachos/threads/PriorityScheduler.java" />
+        <option value="$PROJECT_DIR$/src/nachos/threads/Boat.java" />
+        <option value="$PROJECT_DIR$/src/nachos/threads/Communicator.java" />
+        <option value="$PROJECT_DIR$/src/nachos/test/halt.c" />
+        <option value="$PROJECT_DIR$/src/nachos/test/aa" />
+        <option value="$PROJECT_DIR$/src/nachos/machine/Machine.java" />
+        <option value="$PROJECT_DIR$/src/nachos/threads/KThread.java" />
+        <option value="$PROJECT_DIR$/src/nachos/threads/Alarm.java" />
+        <option value="$PROJECT_DIR$/src/nachos/userprog/SynchConsole.java" />
+        <option value="$PROJECT_DIR$/src/nachos/userprog/UThread.java" />
+        <option value="$PROJECT_DIR$/src/nachos/test/testjoin.c" />
+        <option value="$PROJECT_DIR$/src/nachos/test/Makefile" />
+        <option value="$PROJECT_DIR$/src/nachos/machine/Processor.java" />
+        <option value="$PROJECT_DIR$/src/nachos/machine/TranslationEntry.java" />
+        <option value="$PROJECT_DIR$/src/nachos/userprog/UserKernel.java" />
+        <option value="$PROJECT_DIR$/src/nachos/test/sort.c" />
+        <option value="$PROJECT_DIR$/src/nachos/userprog/UserProcess.java" />
+        <option value="$PROJECT_DIR$/src/nachos/vm/VMKernel.java" />
+        <option value="$PROJECT_DIR$/src/nachos/vm/VMProcess.java" />
+        <option value="$PROJECT_DIR$/nachos.conf" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="680" />
+    <option name="y" value="10" />
+    <option name="width" value="1500" />
+    <option name="height" value="919" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="newos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nachos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nachos" type="462c0819:PsiDirectoryNode" />
+              <item name="threads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nachos" type="462c0819:PsiDirectoryNode" />
+              <item name="vm" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\newos" />
+      <recent name="F:\newos\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\newos" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="Machine" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Machine" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nachos.machine.Machine" />
+      <module name="newos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nachos.machine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Machine" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d99b62df-9bb0-48c9-9800-1f263092e0e4" name="Default Changelist" comment="" />
+      <created>1606204525713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606204525713</updated>
+      <workItem from="1606204529324" duration="18979000" />
+      <workItem from="1606302685500" duration="19335000" />
+      <workItem from="1606464604597" duration="48000" />
+      <workItem from="1606920739448" duration="463000" />
+      <workItem from="1607000883100" duration="4970000" />
+      <workItem from="1607173785195" duration="1567000" />
+      <workItem from="1607185503087" duration="2704000" />
+      <workItem from="1607518653978" duration="679000" />
+      <workItem from="1608470314675" duration="1407000" />
+      <workItem from="1608602946298" duration="46518000" />
+      <workItem from="1608815533657" duration="1490000" />
+      <workItem from="1608817882503" duration="1070000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="99230000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="544" y="8" width="1200" height="735" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.5141431" visible="true" weight="0.2022767" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3167785" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.25801954" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.33570412" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32914925" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.39609483" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Maven" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Structure" order="9" sideWeight="0.4858569" visible="true" weight="0.19789842" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.5141431" visible="true" weight="0.26750448" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.4126344" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.27057183" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32914925" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Maven" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Structure" order="9" sideWeight="0.4858569" visible="true" weight="0.24416517" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="山东大学操作系统课程设计(proj1-4 教师:高晓程)" />
+    <option name="LAST_COMMIT_MESSAGE" value="山东大学操作系统课程设计(proj1-4 教师:高晓程)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/threads/PriorityScheduler.java</url>
+          <line>272</line>
+          <properties class="nachos.threads.PriorityScheduler.ThreadState" method="getEffectivePriority">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/vm/VMKernel.java</url>
+          <line>158</line>
+          <properties class="nachos.vm.VMKernel" method="freePages">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/vm/VMKernel.java</url>
+          <line>143</line>
+          <properties class="nachos.vm.VMKernel" method="pageFault">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/vm/VMKernel.java</url>
+          <line>133</line>
+          <properties class="nachos.vm.VMKernel" method="insertIntoFindTable">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/vm/VMKernel.java</url>
+          <line>413</line>
+          <properties class="nachos.vm.VMKernel.Swap" method="freePages">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/vm/VMKernel.java</url>
+          <line>403</line>
+          <properties class="nachos.vm.VMKernel.Swap" method="pageInSwap">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/vm/VMKernel.java</url>
+          <line>380</line>
+          <properties class="nachos.vm.VMKernel.Swap" method="swapIn">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/vm/VMKernel.java</url>
+          <line>339</line>
+          <properties class="nachos.vm.VMKernel.Swap" method="swapOut">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/vm/VMKernel.java</url>
+          <line>57</line>
+          <properties class="nachos.vm.VMKernel" method="clockAlgorithm">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/vm/VMProcess.java</url>
+          <line>45</line>
+          <properties class="nachos.vm.VMProcess" method="loadSections">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/vm/VMProcess.java</url>
+          <line>222</line>
+          <properties class="nachos.vm.VMProcess" method="writeVirtualMemory">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/vm/VMProcess.java</url>
+          <line>199</line>
+          <properties class="nachos.vm.VMProcess" method="readVirtualMemory">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/userprog/UserProcess.java</url>
+          <line>285</line>
+          <properties class="nachos.userprog.UserProcess" method="load">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/vm/VMKernel.java</url>
+          <line>113</line>
+          <properties class="nachos.vm.VMKernel" method="requestFreePage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/vm/VMProcess.java</url>
+          <line>178</line>
+          <properties class="nachos.vm.VMProcess" method="retrievePage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/nachos/vm/VMProcess.java</url>
+          <line>115</line>
+          <properties class="nachos.vm.VMProcess" method="handleTLBMiss">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nachos/threads/PriorityScheduler.java</url>
+          <line>302</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nachos/threads/PriorityScheduler.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nachos/threads/PriorityScheduler.java</url>
+          <line>320</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nachos/vm/VMProcess.java</url>
+          <line>360</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/halt.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/Test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/create.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/a1.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/readline.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/a0.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/chat.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-687" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/printf.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="143" column="29" lean-forward="true" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/sort.coff">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/a2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/a2.coff">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="833" selection-start-line="833" selection-end-line="833" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/threads/RoundRobinScheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/machine/Interrupt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#2247#2248#0" expanded="true" />
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2530#2531#0" expanded="true" />
+            <element signature="e#3446#3447#0" expanded="true" />
+            <element signature="e#3470#3471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/testjoin.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/userprog/UThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/threads/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#1835#1836#0" expanded="true" />
+            <element signature="e#1890#1891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/matmult.coff">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/echo.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/chatserver.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/sort.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/mv.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/machine/Kernel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/sh.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="158" column="9" lean-forward="true" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/cp.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/machine/Lib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1249">
+          <caret line="506" selection-start-line="506" selection-end-line="506" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/machine/CoffSection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="182" column="46" lean-forward="true" selection-start-line="182" selection-start-column="46" selection-end-line="182" selection-end-column="46" />
+          <folding>
+            <element signature="e#4240#4241#0" expanded="true" />
+            <element signature="e#4264#4265#0" expanded="true" />
+            <element signature="e#4452#4453#0" expanded="true" />
+            <element signature="e#4476#4477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/test/matmult.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="1" column="60" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/ag/AutoGrader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="60" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/machine/TCB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/network/PostOffice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1062">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/network/NetKernel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/network/MailMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1180">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/userprog/UserKernel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2286">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/machine/Coff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/vm/VMKernel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3690">
+          <caret line="258" column="26" selection-start-line="258" selection-start-column="26" selection-end-line="258" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="method#unfix#0;class#VMKernel#0" />
+            <element signature="method#fixIfExists#0;class#VMKernel#0" />
+            <element signature="method#propagateAndFlushTLB#0;class#VMKernel#0" />
+            <element signature="method#propagateEntry#0;class#VMKernel#0" />
+            <element signature="class#TableKey#0;class#VMKernel#0" />
+            <element signature="e#8438#8439#0" expanded="true" />
+            <element signature="e#8494#8495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/threads/Communicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/threads/Alarm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/threads/Condition2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="84" column="24" lean-forward="true" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/userprog/UserProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20070">
+          <caret line="1151" column="37" selection-start-line="1151" selection-start-column="37" selection-end-line="1151" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1758#1759#0" expanded="true" />
+            <element signature="e#1835#1836#0" expanded="true" />
+            <element signature="e#2719#2720#0" expanded="true" />
+            <element signature="e#2769#2770#0" expanded="true" />
+            <element signature="e#4277#4278#0" expanded="true" />
+            <element signature="e#4337#4338#0" expanded="true" />
+            <element signature="e#6225#6226#0" expanded="true" />
+            <element signature="e#6286#6287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/threads/KThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11862">
+          <caret line="669" column="30" selection-start-line="669" selection-start-column="30" selection-end-line="669" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/threads/PriorityScheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="67" column="25" selection-end-line="351" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/machine/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9414">
+          <caret line="541" column="33" selection-start-line="541" selection-start-column="33" selection-end-line="541" selection-end-column="33" />
+          <folding>
+            <element signature="e#6586#6587#0" expanded="true" />
+            <element signature="e#6612#6613#0" expanded="true" />
+            <element signature="e#7455#7456#0" expanded="true" />
+            <element signature="e#7520#7521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/machine/TranslationEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nachos.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/vm/VMProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#writeVirtualMemory#2;class#VMProcess#0" />
+            <element signature="method#createMemoryAccesses#0;class#VMProcess#0" />
+            <element signature="method#VMMemoryAccess#0;class#VMMemoryAccess#0;class#VMProcess#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/machine/Machine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1926">
+          <caret line="114" column="27" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nachos/threads/Boat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>newos</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
