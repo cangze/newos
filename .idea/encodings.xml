@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/nachos/machine/Coff.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/nachos/machine/TranslationEntry.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/nachos/threads/Alarm.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/nachos/threads/Boat.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/nachos/threads/Communicator.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/nachos/threads/Condition.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/nachos/threads/Condition2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/nachos/threads/KThread.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/nachos/threads/LotteryScheduler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/nachos/threads/PriorityScheduler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/nachos/threads/RoundRobinScheduler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/nachos/userprog/UserKernel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/nachos/userprog/UserProcess.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/nachos/vm/VMKernel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/nachos/vm/VMProcess.java" charset="GBK" />
+  </component>
+</project>
